@@ -115,7 +115,7 @@ public class Medicao implements SerialPortEventListener {
 					if (bloco[i] == '$')
 						texto = "";
 					else if (bloco[i] == '#') {
-						System.out.println(texto.lastIndexOf('-'));
+						//System.out.println(texto.lastIndexOf('-'));
 						System.out.println(texto.indexOf('-'));
 
 						if (texto.indexOf("-") >= 0) {
